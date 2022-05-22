@@ -25,11 +25,10 @@ body{
 }
 .Main-div{
     display: grid;
-    grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: repeat(14, 5vh);
-    grid-gap: 15px 10px;
-    margin: 1px 1px 0px 20px;
-    /* padding: 10px 100px; */
+    grid-template-columns: repeat(auto-fit, minmax(10px,1fr));
+    grid-template-rows: repeat(auto-fit, minmax(10px,1fr));
+    grid-gap: 8px;
+    margin: 82px 1px 0px 7px;
 }
 .Main-img{
     box-shadow: 3px 3px 15px  2px rgba(228, 17, 17, 0.4),-3px -3px 5px 2px rgba(73, 1, 1, 0.4);
@@ -102,15 +101,21 @@ body{
 }
 .Main-h1{
     
-    margin-left: 100px;
+    margin-left: 7vh;
     font-size: 7vw;
     color: white;
 }
 .Main-p{
     font-size: 3vw;
-    margin-left: 100px;
+    margin-left: 7vh;
     width: 60vw;
     color: white;
-    margin-top: -55px;
+    margin-top: -1vh;
     text-shadow: #e26eaf 1px 0 10px;
 }
+
+/* display: grid;
+grid-template-columns: repeat(14, 2rem);
+grid-template-rows: repeat(16, 1rem);
+grid-gap: 5px 5px;
+margin: 82px 1px 0px -10px; */
