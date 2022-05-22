@@ -1,5 +1,6 @@
 body{
   font-family: 'Inter', sans-serif;
+  background: #eb5e5e;
 }
 .logo-div{
     background: #fff;
@@ -11,7 +12,7 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    box-shadow: 0px 1px 5px gray;
+    box-shadow: 0px 1px 5px rgb(255, 255, 255);
 
 }
 .logo-img{
@@ -25,13 +26,13 @@ body{
 .Main-div{
     display: grid;
     grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 5px;
+    grid-template-rows: repeat(14, 5vh);
+    grid-gap: 15px 10px;
     margin: 1px 1px 0px 20px;
     /* padding: 10px 100px; */
 }
 .Main-img{
-    box-shadow: 3px 3px 1px grey;
+    box-shadow: 3px 3px 15px  2px rgba(228, 17, 17, 0.4),-3px -3px 5px 2px rgba(73, 1, 1, 0.4);
     height: 100%;
     width: 100%;
     display: grid;
@@ -42,68 +43,74 @@ body{
 .img1{
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 8;
+    grid-row-start:4;
+    grid-row-end:10;
 }
 .img2{
     grid-column-start: 4;
     grid-column-end:6;
     grid-row-start: 3;
-    grid-row-end: 6;
+    grid-row-end: 8;
 }
 .img3{
     grid-column-start: 4;
     grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 14;
 }
 .img4{
     grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 4;
-    grid-row-end: 7;
+    grid-row-end: 9;
 }
 .img5{
     grid-column-start: 6;
     grid-column-end: 8;
-    grid-row-start: 7;
-    grid-row-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 16;
 }
 .img6{
     grid-column-start: 8;
     grid-column-end: 10;
     grid-row-start: 3;
-    grid-row-end: 6;
+    grid-row-end: 8;
 }
 .img7{
     grid-column-start: 8;
     grid-column-end: 10;
-    grid-row-start: 6;
-    grid-row-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 13;
 }
 .img8{
     grid-column-start: 10;
     grid-column-end: 12;
     grid-row-start: 4;
-    grid-row-end: 7;
+    grid-row-end: 9;
 }
 .img9{
     grid-column-start: 10;
     grid-column-end: 12;
-    grid-row-start: 7;
-    grid-row-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 14;
 }
 .img10{
     grid-column-start: 12;
     grid-column-end: 14;
-    grid-row-start: 5;
-    grid-row-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 13;
 }
 .Main-h1{
     
-    margin-left: 25px;
+    margin-left: 100px;
+    font-size: 7vw;
+    color: white;
 }
 .Main-p{
-    margin-left: 25px;
+    font-size: 3vw;
+    margin-left: 100px;
     width: 60vw;
+    color: white;
+    margin-top: -55px;
+    text-shadow: #e26eaf 1px 0 10px;
 }
